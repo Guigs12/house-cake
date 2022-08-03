@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+li a {
+    font-family: 'Poppins', sans-serif;
+}
+
+li a:hover {
+    color: #ED6955;
+}
+
+.apresentacao-top {
+    padding: 20px 0px;
+}
+
+.botao {
+    background-color:darkviolet; 
+    border-radius: 16px; 
+    color: white; 
+    padding: 15px; 
+    text-decoration: none;
+    transition: 1.5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+a.botao:hover {
+    background-color: white;
+    border: 1px solid;
+    color: darkviolet;
+}
+
+.botao-slide {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #ED6955;
+    border-radius: 12px;
+    width: 10%;
+    transition: 1.5s;
+    padding:5px 25px;
+    margin-top: 20px;
+}
+
+.botao-slide:hover {
+    color: #ED6955;
+    background-color: white;
+    border: 1px solid #ED6955;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/pexels-javon-swaby-1829423.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-banner {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sobre {
+    padding: 40px 0px;
+}
+
+.sobre h5{
+    color: #ED6955;
+    font-size: 40px;
+    font-family: 'Poppins'sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card {
+    border: 1px solid #ed6955 !important;
+    width: 100%;
+}
+
+.card h5 {
+    color: #ed6955;
+    font-family: 'Poppins' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+}
+
+.botao-card {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins'sans-serif !important;
+    transition: 1.5s;
+}
+
+.botao-card:hover {
+    background-color: rgb(0, 187, 0);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.text-footer {
+    color: white;
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 230px;
+        position: relative;
+        right: 20px;
+    }
+}

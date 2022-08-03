@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>House Cake</title>
+    <link rel="stylesheet" href="joazinho.css">
+    <link rel="shortcut icon" href="img/HouseCake-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
+  <!--Seção Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 15px 0px; z-index: 999;">
         <div class="container">
-          <a class="navbar-brand" href="index.html">House Cake</a>
+          <a class="navbar-brand" href="index.html" style="color: #ED6955;">House Cake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,20 +29,97 @@
                 <a class="nav-link" href="cupcake.html">Cupcakes</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
                 </li>
             </ul>
           </div>
         </div>
     </nav>
-    <section class="container">
-        <img src="img/bryam-blanco-nXKWLn8y9qE-unsplash.jpg" class="rounded img-fluid" alt="...">
-    </section>
+    <!-- Fim Seção Nav -->
 
-      <div class="container-fluid bg-dark" style="color: white; padding: 20px; position: absolute;bottom: 0;">
-        <h4 class="text-start">Sobre:</h4>
-        <p>Somos uma empresa focada em doces, estamos a mais de 20 anos no mercado.</p>
+    <!-- Seção Topo -->
+    <section class="banner container-fluid">
+      <div class="row text-banner" style="height: 500px;">
+        <p class="m-auto">House Cake <br> os melhores bolos você encontra aqui <br>
+          <a href="./" class="botao-slide m-auto">Contato</a>
+        </p>
       </div>
+    </section>
+    <!-- Fim Seção Topo -->
+
+    <!-- Seção Apresentação -->
+    <section class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6   d-flex justify-content-center">
+            <img src="img/bryam-blanco-nXKWLn8y9qE-unsplash.jpg" class="rounded img-fluid" alt="..." style="height: 280px; padding: 20px 0px; border-radius: 208px !important;">
+          </div>
+          <div class="col-12 col-lg-6 text-center m-auto" style="padding: 20px">
+            <h4>Text</h4>
+            <p class="apresentacao-top">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aperiam error explicabo assumenda maxime tenetur? Minus tenetur dignissimos aliquam facere omnis quasi voluptate, alias quam. Consectetur expedita aspernatur repellat magnam?</p>
+            <a href="#" class="botao">Faça seu pedido</a>
+          </div>
+        </div>
+    </section>
+    <!-- Fim Seção Apresentação -->
+
+    <div class="col-12 col-lg-6 m-auto sobre">
+      <h5 class="text-center">Sobre Nós</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi ab esse suscipit aliquid alias rerum distinctio at. Laudantium odio quia atque repudiandae, ipsa natus laboriosam dolores quasi sit soluta?</p>
+    </div>
+
+    <!-- Seção Card -->
+    <div class="container m-auto">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 60px;">
+        <div class="col m-auto">
+          <div class="card" style=" padding: 40px; margin: 20px 0px;">
+            <img src="img/cupcakes-card.webp"class=" m-auto" alt="..." style="height: 100px;">
+            <div class="card-body">
+              <h5 class="card-title">Cupcakes</h5>
+              <p class="card-text">Nossos Cupcakes são a partir de R$8,90</p>
+              <a href="./" class="botao-card">Confira</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m-auto">
+          <div class="card" style=" padding: 40px; margin: 20px 0px;">
+            <img src="img/Cakes-card.jpg"class=" m-auto" alt="..." style="height: 100px;">
+            <div class="card-body">
+              <h5 class="card-title">Cakes</h5>
+              <p class="card-text">Nossos bolos são a partir de R$50,90</p>
+              <a href="./" class="botao-card">Confira</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m-auto">
+          <div class="card" style=" padding: 40px; margin: 20px 0px;">
+            <img src="img/Conjuntos-card.jpg" class=" m-auto" alt="..." style="height: 100px;">
+            <div class="card-body">
+              <h5 class="card-title">Conjuntos</h5>
+              <p class="card-text">Crie seu orçamento agora mesmo</p>
+              <a href="./" class="botao-card">Criar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Seção Card -->
+
+    <!-- Seção Footer -->
+    <footer class="container-fluid" id="contato">
+      <div class="container">
+        <div class="row text-footer">
+          <div class="col-12 col-lg-6 m-auto">
+            <h5>Contato:</h5>
+            <p>Tel: 99 99999-9999</p>
+            <p>Email: housecake@email.com</p>
+          </div>
+        </div>
+        <div style="color: #808080;" class="d-flex justify-content-center">
+          <p>Desenvolvido por Guilherme Centeno</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Fim Seção Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
