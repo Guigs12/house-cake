@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-li a {
+.navbar-nav li a {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -18,12 +18,39 @@ li a:hover {
     color: #ED6955;
 }
 
-.apresentacao-top {
-    padding: 20px 0px;
+.apresentação-top {
+   margin: 50px 0px;
+}
+
+.text-apresentação-top {
+    padding: 20px;
+}
+
+.text-apresentação-top h4 {
+    color: #ED6955;
+    font-family: 'Poppins' sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 0.5px solid #ED6955;
+}
+
+.text-apresentação-top p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins' sans-serif;
+}
+
+.card {
+    width: 230px !important;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: 'Poppins' sans-serif;
 }
 
 .botao {
-    background-color:darkviolet; 
+    background-color:#ED6955; 
     border-radius: 16px; 
     color: white; 
     padding: 15px; 
@@ -34,13 +61,15 @@ li a:hover {
 
 a.botao:hover {
     background-color: white;
+    border: 1px solid #ED6955;
     border: 1px solid;
-    color: darkviolet;
+    color: #ED6955;
 }
 
 .botao-slide {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    font-weight: normal;
     text-decoration: none;
     color: white;
     background-color: #ED6955;
@@ -74,11 +103,23 @@ a.botao:hover {
     text-align: center;
 }
 
+
+.text-receita h4{
+    color: #ED6955;
+}
+
+.text-receita p {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Poppins' sans-serif;
+}
+
 .sobre {
     padding: 40px 0px;
 }
 
 .sobre h5{
+    border-bottom: 1px solid #ED6955;
     color: #ED6955;
     font-size: 40px;
     font-family: 'Poppins'sans-serif;
@@ -86,9 +127,22 @@ a.botao:hover {
     text-transform: uppercase;
 }
 
+.sobre p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+.text-preco h5{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins'sans-serif;
+    text-transform: uppercase;
+}
+
 .card {
     border: 1px solid #ed6955 !important;
-    width: 100%;
 }
 
 .card h5 {
@@ -99,35 +153,55 @@ a.botao:hover {
 }
 
 .card p {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     font-family: 'Poppins' sans-serif;
 }
 
-.botao-card {
-    text-decoration: none;
-    color: white;
-    background-color: orange;
-    border-radius: 10px;
-    padding: 5px 10px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Poppins'sans-serif !important;
-    transition: 1.5s;
+
+.contato {
+    padding: 40px 0px;
 }
 
-.botao-card:hover {
-    background-color: rgb(0, 187, 0);
-    color: white;
+.contato h5 {
+    border-bottom: 1px solid;
+    color: #ed6955;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+}
+
+.contato p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins'sans-serif;
 }
 
 footer {
     background-color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.568);
     padding: 20px;
 }
 
 .text-footer {
-    color: white;
+    color: lightslategrey;
+}
+
+.text-footer h5 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins'sans-serif;
+}
+.text-footer p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins'sans-serif;
+}
+
+.text-rodape p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins'sans-serif;
 }
 
 @media (max-width: 320px) {
