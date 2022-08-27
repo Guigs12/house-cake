@@ -243,12 +243,21 @@ a.botao:hover {
 }
 
 footer {
-    background-color: gray;
+    background-color: #f8f9fa;
     padding: 20px;
 }
 
 .text-footer {
-    color: white;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #ED6955;
 }
 
 .text-footer h5 {
